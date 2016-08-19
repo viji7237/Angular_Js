@@ -1,4 +1,11 @@
-angular.module("app",[]).controller("day1Ctrl",
+angular.module("Day1",[]).controller("Assignment1",[
 function($scope){
-	$scope.pjtName = "Day 1 Angular";
-});
+	
+	init();
+
+	function init(){
+		$scope.Event = "Day 1 Angular - Assignment 1";
+		$scope.Activity = "Add and Display TODO list";
+
+	}
+}]);
